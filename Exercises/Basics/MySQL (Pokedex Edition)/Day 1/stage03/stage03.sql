@@ -1,1 +1,0 @@
-SELECT 14 + 12 as resultat

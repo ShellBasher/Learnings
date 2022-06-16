@@ -1,1 +1,0 @@
-SELECT DATEDIFF( CURDATE() ,"2020-12-10" ) as nbJours;

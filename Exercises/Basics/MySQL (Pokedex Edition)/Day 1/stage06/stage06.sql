@@ -1,1 +1,0 @@
-SELECT identifier as "type" FROM types JOIN pokemon_types ON types.id = pokemon_types.type_id WHERE pokemon_id IN (123);

@@ -1,0 +1,1 @@
+docker build -t step04:volume .

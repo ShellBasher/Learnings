@@ -1,0 +1,1 @@
+rm -f \#weed# deku_baba~

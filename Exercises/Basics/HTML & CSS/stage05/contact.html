@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href = "./style.css" rel = "stylesheet"/>
+    </head>
+    <body>
+        <main>
+            <form id = "ctform">
+                <fieldset class = "box">
+                    <legend class = "legend" >personal informations :</legend>
+
+                    <label class = "Label" for="Civ">civility:</label>
+                    <label>Female<input  class="button" type="radio" id="Civ" name = "civil_F" value="F"></label> 
+                    <label>Male<input class="button" type="radio" id="Civ" name = "civil_M" Value="M"></label> 
+                    <br><br>
+
+                    <label class = "Label" for="fname">firstname:</label><br>
+                    <input class = "input" type="text" id="fname" name = "first_name" placeholder="complete this field">
+                    <br><br>
+
+                    <label class = "Label" for="lname">lastname:</label><br>
+                    <input class = "input" type="text" id="lname" name = "last_name" placeholder="complete this field">
+                    <br><br>
+              
+                    <label class = "Label" for="email">e-mail:</label><br>
+                    <input class = "input" type="email" id="email" name = "email" placeholder="complete this field" max = 254>
+                    <br><br>
+
+                    <label class = "Label" for="pnumber">phone Number:</label><br>
+                    <input class = "input" type="number" id="pnumber" name = "phone_number" placeholder="complete this field" >
+                    <br><br>
+                </fieldset>
+
+                <fieldset class = "box">
+                    <legend class = "legend"> message :</legend>
+
+                    <label class = "Label" for="Subj">subject:</label><br>
+                    <Select class = "input" id="Subj" name = "subject" placeholder="complete this field" multiple>
+                        <option value = "Work">Work Proposal</option>
+                        <option value = "R-V">Rendez-Vous</option>
+                        <option value = "Rprt">Bug Report</option>
+                        <option value = "Msg">Simple Message</option>
+                    </Select>
+                    <br><br>
+
+                    <label class = "Label" for="cdate">current date:</label><br>
+                    <input class = "input" type="date" id="cdate">
+                    <br><br>
+
+                    <label class = "Label" for="content">content:</label><br>
+                    <textarea class = "input" name="Content" form = "ctform">
+                    </textarea>
+                    <br><br>
+
+                </fieldset>
+
+                <input class = "button" type="submit" value="Submit">
+
+            </form>
+        </main> 
+    </body>
+</html>

@@ -1,0 +1,1 @@
+docker run docker.etna.io/alpine /bin/bash -c " HELLO = 'Hello Etna' ; apt-get install figlet ; figlet $HELLO"

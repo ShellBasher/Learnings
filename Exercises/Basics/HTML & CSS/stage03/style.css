@@ -1,0 +1,19 @@
+.title 
+  {
+    color : #54a6b1;
+    text-align: center;
+  }
+
+.header
+  {
+    text-align: left;
+    display: inline-block;
+    background-color: aquamarine,
+  }
+
+.menu
+  {
+    text-align: right;
+    display: inline-block;
+    background-color: aquamarine;
+  }

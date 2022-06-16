@@ -1,0 +1,3 @@
+#!/bin/bash
+
+date +" today is %A %D and the time is %T

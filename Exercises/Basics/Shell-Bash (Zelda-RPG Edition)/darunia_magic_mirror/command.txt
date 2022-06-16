@@ -1,0 +1,1 @@
+head -n 1 mirror > A && tail -n 1 mirror > B && diff A B; rm -f A B
